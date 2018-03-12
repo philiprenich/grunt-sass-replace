@@ -1,28 +1,29 @@
 {
-  "name": "grunt-sass-replace",
-  "description": "replaces sass values with grunt",
-  "version": "0.1.18",
-  "homepage": "https://github.com/eliranmal/grunt-sass-replace",
+  "name": "grunt-sass-replace-values",
+  "description": "Replaces sass values with Grunt. Patched and based on https://github.com/eliranmal/grunt-sass-replace",
+  "version": "0.2",
+  "homepage": "https://github.com/philiprenich/grunt-sass-replace",
   "author": {
-    "name": "eliranmal",
-    "email": "eliranmal@gmail.com"
+    "name": "Philip Renich",
+    "email": "hello@philiprenich.com"
   },
   "main": "tasks/sass-replace",
   "repository": {
     "type": "git",
-    "url": "git://github.com/eliranmal/grunt-sass-replace.git"
+    "url": "git://github.com/philiprenich/grunt-sass-replace.git"
   },
   "bugs": {
-    "url": "https://github.com/eliranmal/grunt-sass-replace/issues"
+    "url": "https://github.com/philiprenich/grunt-sass-replace/issues"
   },
   "licenses": [
     {
       "type": "WTFPL",
-      "url": "https://github.com/eliranmal/grunt-sass-replace/blob/master/LICENSE.txt"
+      "url": "https://github.com/philiprenich/grunt-sass-replace/blob/master/LICENSE.txt"
     }
   ],
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 8.9.4",
+    "npm": ">= 5.6.0"
   },
   "scripts": {
     "sanitize": "grunt jshint",

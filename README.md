@@ -1,6 +1,6 @@
-# grunt-sass-replace
+# grunt-sass-replace-values
 
-> replaces sass values with grunt
+> Replaces sass values with grunt. Patched and based on https://github.com/eliranmal/grunt-sass-replace
 
 [![NPM][16]][17]
 
